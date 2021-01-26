@@ -37,7 +37,7 @@ Constraints:
 //********************* Solution *****************************
 package com.tanya;
 
-class Solution {
+class SmallestDivisibleNumber {
     public static long getSmallestDivNum(int n){
         long ans = 1;
         for(long i=2; i<=n; i++){
